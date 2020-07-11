@@ -8,10 +8,15 @@ header{
   background-image: url("../images/ocean.jpg");
   text-align: center;
   padding: 15px;
+  border-radius: 20px;
 }
 h1{
   color: #FFFFFF;
   font-family: Helvetica;
+}
+h1:hover{
+  font-size: 250%;
+  transition-duration: 0.5s;
 }
 nav a{
   font-variant: small-caps;
@@ -27,6 +32,9 @@ nav a{
 a:hover{
   color: #B3B3B3;
   background: #35B6DF;
+  transform: rotateZ(360deg);
+  transition-duration: 1s;
+  transition-delay: 0.25s;
 }
 a:focus{
   color: #B3B3B3;
@@ -36,8 +44,8 @@ a:active{
   border: 3px solid #000000;
 }
 h2{
-  color: #666666;
-  background: #00B7EA;
+  color: #FFFFFF;
+  background: #5F71AE;
   font-family: Helvetica;
 }
 section{
@@ -55,14 +63,8 @@ footer{
   background-image: url("../images/ocean.jpg");
   clear: both;
   padding: 15px;
+  border-radius: 20px;
 }
-/*header, footer{
-  background: #666666;
-  background: -moz-linear-gradient(#666666 0%,#00B7EA 100%);
-  background: -webkit-linear-gradient(#666666 0%,#00B7EA 100%);
-  background: -o-linear-gradient(#666666 0%,#00B7EA 100%);
-  background: linear-gradient(#666666 0%,#00B7EA 100%);
-}*/
 div a i{
   color: #FFFFFF;
   padding: 5px;
@@ -76,6 +78,7 @@ div a i{
 }
 .whole{
   clear: both;
+  padding: 5px;
 }
 footer img{
   width: 75px;
